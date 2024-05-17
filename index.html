@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>GROCERY BUD</title>
+</head>
+<body>
+    <div class="body">
+        <div class="card">
+            <div class="alert">
+                <div id="added" class="added none">Item added succesfully</div>
+                <div id="remove" class="remove none">Item remove</div>
+                <div id="empty" class="empty none">Empty list</div>
+                <div class="entervalue none">Please Enter Value</div>
+                <div id="valuechange" class="changeinvalue none">Value Change</div>
+            </div>
+            <h1>Grocery Bud</h1>
+            <div class="input">
+                <input type="text" placeholder="e.g. eggs" name="" id="txt">
+                <input type="submit" id="submt" value="Submit">
+                <input type="submit" class="none" id="edit" value="edit">
+            </div>
+            <div id="messagefather">
+                <!-- <div class="message">
+                    <div class="messagename">Zain</div>
+                    <div class="fonts">
+                        <i style="color: yellowgreen;" id="pen" class="pen fa-solid fa-pen-to-square"></i>
+                        <i style="color: rgb(148, 0, 0)" id="trash" class="trash1 fa-solid fa-trash"></i>
+                    </div>
+                </div> -->
+            </div>
+            <div id="clearitem" class="clearitem none">
+                Clear Item
+            </div>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
